@@ -21,3 +21,17 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 
 ## WVD Concepts
 https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup
+
+## Requirements
+https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#requirements
+
+## Management
+* Updates coming to the service Public Preview
+* What happens to my previous deployments
+* Management Portal
+* Monitoring Tenant, Vms, Sessions
+* Patching Vm's and apps
+* Troubleshooting
+
+## Demo
+## Resources
