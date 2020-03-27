@@ -18,3 +18,6 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * [Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 * [Windows 10 VPN](https://docs.microsoft.com/en-us/windows/security/identity-protection/vpn/vpn-guide)
 * Partner products such as Citrix
+
+## WVD Concepts
+https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup
