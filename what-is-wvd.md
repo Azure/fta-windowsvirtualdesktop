@@ -8,7 +8,7 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 ## Possible Scenarios
 * Legacy Line of Business application that have no native way to share across platforms and devices
 * Resource optimisation e.g applications that are resouce intensive
-* Enabling user mobility especially in short timeframes
+* Enabling user mobility especially in short timeframes, tactical response
 
 ## Other Enablers for Remote Workers
 * [Remote Desktop](https://docs.microsoft.com/en-us/windows/win32/termserv/remote-desktop-protocol)
@@ -17,21 +17,6 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * [Mobile Device Management (MDM)](https://docs.microsoft.com/en-us/mem/)
 * [Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 * [Windows 10 VPN](https://docs.microsoft.com/en-us/windows/security/identity-protection/vpn/vpn-guide)
-* Partner products such as Citrix
+* Partner products such as Citrix, VMWare
 
-## WVD Concepts
-https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup
-
-## Requirements
-https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#requirements
-
-## Management
-* Updates coming to the service Public Preview
-* What happens to my previous deployments
-* Management Portal
-* Monitoring Tenant, Vms, Sessions
-* Patching Vm's and apps
-* Troubleshooting
-
-## Demo
-## Resources
+ Next: [WVD Concepts](./wvd-concepts.md)
