@@ -19,4 +19,4 @@ Split deployment: The majority of resources can be deployed to a Corp Azure AD T
 
 Single deployment: this option requires that you manually setup your Azure AD and on-premises Domain Services integration. 
 
-> A subscription per tenat is required with tenant trust enable. 
+> A subscription per tenant is required with tenant trust enable. 
