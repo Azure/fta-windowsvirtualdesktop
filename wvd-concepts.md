@@ -44,4 +44,8 @@ To publish resources to users, you must assign them to app groups. When assignin
 End users need to be the users from your Active Directory (AD) NOT your Azure Active Directory (AAD). This is because the virtual machines (or session hosts) are domain joined to your AD therefore the users need to exist there for them to be able to access the hosts and applications.  
 
 ## Tenant Groups
-Tenant Groups are for CSPs or Hosting Partners who need to manage multiple WVD tenants at once. You can have a tenant for each customer that you manage in a central location for ease of operation. 
+Tenant Groups are for CSPs or Hosting Partners who need to manage multiple WVD tenants at once. You can have a tenant for each customer that you manage in a central location for ease of operation.
+
+## Visual Representation
+In order to understand where all these pieces sit, please refer to the below high level diagram
+![Concept Diagram](wvd-concepts-diag.png)
