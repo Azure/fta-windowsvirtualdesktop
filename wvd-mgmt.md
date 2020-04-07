@@ -1,4 +1,4 @@
-# WVD Management
+# Management
 
 ## Management related links
 - https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
@@ -33,4 +33,6 @@
 - Use [Azure Image Creator](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
 
 ## Troubleshooting
-- PowerShell
+- Host pools are just VMs.
+- Interact with the WVD service using PowerShell.
+
