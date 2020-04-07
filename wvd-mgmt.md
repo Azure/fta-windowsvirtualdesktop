@@ -10,7 +10,7 @@
 - Expected General Availability date: details coming soon.
 - Keep an eye here https://azure.microsoft.com/en-us/updates/
 - Integration with ARM.
-- Geo distribution to host WVD data. 
+- Geo distribution to host WVD data.
 
 ## What happens to my previous deployments
 - You will be expected to migrate to the latest release (ARM integrated release)
@@ -31,6 +31,9 @@
 - Patching host pool VMs.
 - Installing / updating applications.
 - Use [Azure Image Creator](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
+
+## Automate scale and host pool VM deployments
+- [Scale session hosts using Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)
 
 ## Troubleshooting
 - Host pools are just VMs.
