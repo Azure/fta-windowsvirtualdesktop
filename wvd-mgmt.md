@@ -27,7 +27,9 @@
 - Use Azure Monitor with Log Analytics.
 - There are free 3rd party solution to help create dashboards.
 
-## Patching VMs and apps
+## Image Maintenance
+- Patching host pool VMs.
+- Installing / updating applications.
 - Use [Azure Image Creator](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
 
 ## Troubleshooting
