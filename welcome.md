@@ -7,10 +7,10 @@ Please give us your feedback on https://aka.ms/ftafeedbackwvd
 
 Agenda
 1. [What is Windows Virtual Desktop?](./what-is-wvd.md)
-1. [WVD Concepts](./wvd-concepts.md)
-1. [WVD Requirements](./wvd-prereqs.md)
-1. [WVD Deployment](./wvd-deployment.md)
+1. [Concepts](./wvd-concepts.md)
+1. [Requirements](./wvd-prereqs.md)
+1. [Deployment](./wvd-deployment.md)
 1. Demo
-1. [WVD Management](./wvd-mgmt.md)
+1. [Management](./wvd-mgmt.md)
 1. [Resources](./wvd-resources.md)
-1. QnA
+1. [QnA](/wvd-faq.md)
