@@ -42,4 +42,5 @@
 ## Client Options
 - Mapped drives and printers.
 - Security.
+- Remote app Start menu integration.
 
