@@ -12,15 +12,15 @@
 
 ## Management Portal
 
-[Deploy a management tool with an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-resources-using-ui)
+- [Deploy a management tool with an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/virtual-desktop/manage-resources-using-ui)
 
 ## Host Pool(s)
 
-[Create a host pool with an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-arm-template)
+- [Create a host pool with an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-arm-template)
 
 ## FSlogix
-[What is FSLogix?](https://docs.microsoft.com/en-us/fslogix/overview)
-[Storage options for FSLogix profile containers in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/fslogix-containers-azure-files)
+- [What is FSLogix?](https://docs.microsoft.com/en-us/fslogix/overview)
+- [Storage options for FSLogix profile containers in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/fslogix-containers-azure-files)
 
 ## Next
 
