@@ -40,7 +40,6 @@
 - Interact with the WVD service using PowerShell.
 
 ## Client Options
-- Mapped drives.
-- Mapped printers.
+- Mapped drives and printers.
 - Security.
 
