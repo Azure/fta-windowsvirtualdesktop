@@ -39,3 +39,8 @@
 - Host pools are just VMs.
 - Interact with the WVD service using PowerShell.
 
+## Client Options
+- Mapped drives.
+- Mapped printers.
+- Security.
+
