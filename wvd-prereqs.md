@@ -1,15 +1,24 @@
-# WVD Requirements
+# Requirements
 
 The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
 ## Supporting infrastructure
 
+- Azure subscription.
+- Azure AD tenant.
 - Domain Services: 
-WVD host pool VMs must be domain joined. This requires either an on-premises forest or the use of Azure AD Domain Services.
+Host pool VMs must be domain joined to either an on-premises forest or to Azure AD Domain Services (AADDS).
+- Users synced to Azure AD: this means deploying Azure AD Connect or is included as part of AADDS.
 - File Services: To enable persistant profile for users a file service is needed which supports domain integration. Azure Files can be used for this.
-- Azure AD with integration to Domain Services.
-- Other required infrastructure is listed on the WVD overview page.
-- Azure subscription
+- Azure networking.
+
+## End to end connectivity
+- Routing.
+- Firewall rules.
+
+## Access
+- Global Administrator role.
+- Subscription Contributor role.
 
 ## 'Split' or 'Single' deployment options
 
@@ -19,4 +28,8 @@ Split deployment: The majority of resources can be deployed to a Corp Azure AD T
 
 Single deployment: this option requires that you manually setup your Azure AD and on-premises Domain Services integration. 
 
-> A subscription per tenant is required with tenant trust enable. 
+> At least one subscription per tenant is required with tenant trust enable. 
+
+## Next
+
+[Deployment](/wvd-deployment.md)
