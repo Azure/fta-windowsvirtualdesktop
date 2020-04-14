@@ -2,8 +2,10 @@
 
 The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
-## Supporting infrastructure
+## Security
+- An important point.
 
+## Supporting infrastructure
 - Azure subscription.
 - Azure AD tenant.
 - Domain Services: 
@@ -11,6 +13,7 @@ Host pool VMs must be domain joined to either an on-premises domain or to Azure 
 - Users synced to Azure AD: this means deploying Azure AD Connect if using on-premises domain services.
 - File Services: To enable persistant profile for users a file service is needed which supports domain integration. Azure Files can be used for this.
 - Azure networking.
+- Network connectivity to production systems.
 
 ## End to end connectivity
 - Routing.
