@@ -4,6 +4,8 @@
 
 The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
+> Note the documentation is split into [Spring 2020](https://docs.microsoft.com/en-us/azure/virtual-desktop/) release and [Fall 2019](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory) release.
+
 ## Security
 - An important point.
 
@@ -29,7 +31,7 @@ Host pool VMs must be domain joined to either an on-premises domain or to Azure 
 
 Decide to deploy all components to a single Azure AD Tenant or to split the WVD integration with a separate (non-production) Azure AD Tenant.
 
-Split deployment: The majority of resources can be deployed to a Corp Azure AD Tenant. Specific directory integration resources will be split and deployed separately. The cost of the split resources will be minimal, and a trial subscription can be used. 
+Split deployment: The majority of resources can be deployed to a Corp Azure AD Tenant. Specifc directory integration resources will be split and deployed separately. The cost of the split resources will be minimal, and a trial subscription can be used. 
 
 Single deployment: this option requires that you manually setup your Azure AD and on-premises Domain Services integration. 
 
