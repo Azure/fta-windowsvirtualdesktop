@@ -1,0 +1,1 @@
+moved [here](/doc/welcome.md)
