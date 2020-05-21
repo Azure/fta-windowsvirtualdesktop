@@ -1,10 +1,8 @@
-# Deployment
+# Deployment Spring 2020 Release
 
-## Suporting Infrastructure
+#### [prev](./deployment-f19.md) | [home](./welcome.md)  | [next](./management.md)
 
-[Requirements](/wvd-prereqs.md)
-
-## WVD Service
+## WVD Service 
 - Create a tenant - step #1 in the tutorial
 - Create a service principal - step #2 in the tutorial
 
@@ -18,11 +16,6 @@
 
 - [Create a host pool with an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-arm-template)
 
-## FSlogix
+## FSLogix
 - [What is FSLogix?](https://docs.microsoft.com/en-us/fslogix/overview)
 - [Storage options for FSLogix profile containers in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/fslogix-containers-azure-files)
-
-## Next
-
-[Management](/wvd-mgmt.md)
-

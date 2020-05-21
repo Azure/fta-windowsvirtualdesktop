@@ -1,10 +1,13 @@
-# Windows Virtual Desktop (WVD) Concepts
+# Concepts
+
+#### [prev](./what.md) | [home](./welcome.md)  | [next](./requirements.md)
+
 ## Helpful links
 [Windows Virtual Desktop Environment](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup)
 
 [Azure Academy - Building WVD Environment](https://aka.ms/AzureAcademy-WVD)
 
-These concepts will help you understand the heirarchy you need to establish in order to deploy WVD
+These concepts will help you understand the hierarchy you need to establish in order to deploy WVD
 
 ## Structure
 * Tenants
@@ -25,7 +28,7 @@ A host pool can be one of two types:
 * Pooled, where session hosts can accept connections from any user authorized to an app group within the host pool.
 
 You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Windows Virtual Desktop sessions. You control the resources published to users through app groups.
-A key consideration is that you need a host pool for users to access desktops and applications. Currently the service is limited in that you can either access desktops OR applications from within a hostpool, not both. However users CAN be assigned to multuple app groups.  
+A key consideration is that you need a host pool for users to access desktops and applications. Currently the service is limited in that you can either access desktops OR applications from within a host pool, not both. However users CAN be assigned to multiple app groups.  
 
 ## App Groups
 An app group is a logical grouping of applications installed on session hosts in the host pool. An app group can be one of two types:
@@ -48,4 +51,4 @@ Tenant Groups are for CSPs or Hosting Partners who need to manage multiple WVD t
 
 ## Visual Representation
 In order to understand where all these pieces sit, please refer to the below high level diagram
-![Concept Diagram](wvd-concepts-diag.png)
+![Concept Diagram](/png/concepts.png)

@@ -1,5 +1,7 @@
 # Training Videos
 
+#### [prev](./resources.md) | [home](./welcome.md)  | [next](./faq.md)
+
 Deploy Windows Virtual Desktop using the new Azure Portal experience
 - [https://medius.studios.ms/Embed/video-nc/Pavithra-Thiruvengadam](https://medius.studios.ms/Embed/video-nc/Pavithra-Thiruvengadam)
 

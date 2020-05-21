@@ -1,5 +1,7 @@
 # Management
 
+#### [prev](./deployment-s20.md) | [home](./welcome.md)  | [next](./resources.md)
+
 ## Management related links
 - https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
 - https://rdweb.wvd.microsoft.com/webclient/index.html
