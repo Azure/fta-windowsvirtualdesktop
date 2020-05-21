@@ -1,6 +1,10 @@
 # Requirements
 
+#### [prev](./concepts.md) | [home](./welcome.md)  | [next](./deployment-f19.md)
+
 The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
+
+> Note the documentation is split into [Spring 2020](https://docs.microsoft.com/en-us/azure/virtual-desktop/) release and [Fall 2019](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory) release.
 
 ## Security
 - An important point.
@@ -11,7 +15,7 @@ The WVD Docs article lists all requirements on the 'Overview' page located [here
 - Domain Services: 
 Host pool VMs must be domain joined to either an on-premises domain or to Azure AD Domain Services (AADDS).
 - Users synced to Azure AD: this means deploying Azure AD Connect if using on-premises domain services.
-- File Services: To enable persistant profile for users a file service is needed which supports domain integration. Azure Files can be used for this.
+- File Services: To enable persistent profile for users a file service is needed which supports domain integration. Azure Files can be used for this.
 - Azure networking.
 - Network connectivity to production systems.
 
@@ -32,7 +36,3 @@ Split deployment: The majority of resources can be deployed to a Corp Azure AD T
 Single deployment: this option requires that you manually setup your Azure AD and on-premises Domain Services integration. 
 
 > At least one subscription per tenant is required with tenant trust enable. 
-
-## Next
-
-[Deployment](/wvd-deployment.md)

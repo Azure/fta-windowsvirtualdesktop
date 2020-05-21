@@ -1,12 +1,18 @@
 # Management
 
-## Management related links
+#### [prev](./deployment-s20.md) | [home](./welcome.md)  | [next](./resources.md)
+
+## Management related links Fall 2019
 - https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
 - https://rdweb.wvd.microsoft.com/webclient/index.html
 - https://rdbroker.wvd.microsoft.com
 
+## Management related links Spring 2020
+- https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
+- https://rdweb.wvd.microsoft.com/arm/webclient/index.html
+
 ## Updates coming to the service Public Preview
-- Expected public preview date: details coming soon.
+- Expected public preview date: out now!
 - Expected General Availability date: details coming soon.
 - Keep an eye here https://azure.microsoft.com/en-us/updates/
 - Integration with ARM.
@@ -33,7 +39,7 @@
 - Use [Azure Image Creator](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
 
 ## Automate scale and host pool VM deployments
-- [Scale session hosts using Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)
+- [Scale session hosts using Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/set-up-scaling-script)
 
 ## Troubleshooting
 - Host pools are just VMs.
