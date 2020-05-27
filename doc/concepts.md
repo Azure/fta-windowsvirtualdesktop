@@ -51,4 +51,4 @@ Tenant Groups are for CSPs or Hosting Partners who need to manage multiple WVD t
 
 ## Visual Representation
 In order to understand where all these pieces sit, please refer to the below high level diagram
-![Concept Diagram](/png/concepts.png)
+![Concept Diagram](/png/wvd-concepts-diag.png)
