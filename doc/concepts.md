@@ -16,8 +16,9 @@ These concepts will help you understand the hierarchy you need to establish in o
 * End Users
 * Tenant Groups (limited use cases)
 
-## Tenants 
+## Tenants / WVD Workspaces
 The Windows Virtual Desktop tenant is the primary interface for managing your Windows Virtual Desktop environment. Each Windows Virtual Desktop tenant must be associated with the Azure Active Directory containing the users who will sign in to the environment. From the Windows Virtual Desktop tenant, you can begin creating host pools to run your users' workloads.
+The WVD Tenant was effectively the top level of WVD administration, this directly translates to a WVD Workspace in the ARM model. To publish applications or desktops to users, they need to be assigned to an “App Group” which in turn needs to be registered to a Workspace.
 
 ## Host pools
 A host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience.
