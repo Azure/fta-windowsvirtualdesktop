@@ -50,3 +50,5 @@
 - Security.
 - Remote app Start menu integration.
 
+https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context
+
