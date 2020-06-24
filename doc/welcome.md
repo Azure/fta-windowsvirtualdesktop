@@ -3,7 +3,7 @@
 
 **Questions?** Feel free to type them in the chat window at any time. Note that questions you post will be public. 
 
-Please give us your feedback on https://aka.ms/ftafeedbackwvd
+Please give us your feedback on https://aka.ms/ftafeedback
 
 Agenda
 1. [What is Windows Virtual Desktop?](./what.md)
