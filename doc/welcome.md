@@ -7,7 +7,7 @@
 
 **Slideless** No PowerPoint, we promise! As we update this content you will get the changes straight away.
 
-Please give us your feedback on https://aka.ms/ftafeedback
+Please give us your feedback on https://aka.ms/ftalive-wvd-feedback
 
 Agenda
 1. [What is Windows Virtual Desktop?](./what.md)
