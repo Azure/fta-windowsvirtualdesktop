@@ -4,11 +4,15 @@
 
 ## Before you deploy
 
-Sizing is very important element for successfull deployment of WVD
-Users can run different types of workloads on VMs managed by Windows Virtual Desktop. Plan to scale your deployment depending on the expected need of [each type of user](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads).
+- Sizing is very important element for successful deployment of WVD
+- Users can run different types of workloads on VMs managed by Windows Virtual Desktop. 
+- Plan to scale your deployment depending on the expected need of [each type of user](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads).
+- Choose right VM size (Cores/Memory/Disk/Graphics) depending on the purpose.
+- For Multi-session (Pooled) [this](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#multi-session-recommendations) table lists the maximum suggested number of users per virtual central processing unit (vCPU) and the minimum VM configuration for each workload.
 
 
- - Virtual Machine Sizing. (Cores/Memory/Disk/Graphics)
+
+ - Virtual Machine Sizing. 
    Examples 
    D-Series 
    for general purpose use cases
