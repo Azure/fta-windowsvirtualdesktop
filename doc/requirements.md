@@ -12,7 +12,7 @@ The WVD Docs article lists all requirements on the 'Overview' page located [here
 - Domain Services: 
 Host pool VMs must be domain joined to either an on-premises domain or to Azure AD Domain Services (AADDS).
 - Users synced to Azure AD: this means deploying Azure AD Connect if using on-premises domain services.
-- File Services: To enable persistent profile for users a file service is needed which supports domain integration. Azure Files can be used for this.
+- File Services: To enable persistent profile for users a file service is needed which supports domain integration. Depending on requirements (read sizing), SOFS on Windows VM based File shares, Azure Files, Azure NetApp Files can be used for this.
 - Azure networking.
 - Network connectivity to production systems.
 
