@@ -11,11 +11,17 @@
 - For [Multi-session (Pooled), this table](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#multi-session-recommendations) lists the maximum suggested number of users per virtual central processing unit (vCPU) and the minimum VM configuration for each workload.
 - VM sizing for [single-session VMs](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#single-session-recommendations) will likely align with physical device guidelines.
  
- - Profile Storage Sizing. (Mainly IOPS).
+ - FSLogix Profile Storage Sizing. (Mainly IOPS).
     - Requirements can vary widely depending on the user, applications, and activity on each profile.
     - General requirements, Steady state IOPS	10, Sign-in/sign-out IOPS	50 per user
     - [Refer details here](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#performance-requirements)
- 
+  - End user network bandwidth [requirements](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance). 
+    Recommended bandwidth based on workloads (user personas)
+      Light	1.5 Mbps
+      Medium	3 Mbps
+      Heavy	5 Mbps
+      Power	15 Mbps
+
  
  
 
