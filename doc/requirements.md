@@ -6,9 +6,6 @@ The WVD Docs article lists all requirements on the 'Overview' page located [here
 
 > Note that there are two WVD documentations, one for the [current release](https://docs.microsoft.com/en-us/azure/virtual-desktop/) aka Spring 2020 and [Classic Release](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory) aka Fall 2019 release.
 
-## Security
-- An important point.
-
 ## Supporting infrastructure
 - Azure subscription.
 - Azure AD tenant.
@@ -24,8 +21,13 @@ Host pool VMs must be domain joined to either an on-premises domain or to Azure 
 - Firewall rules.
 
 ## Access
-- Global Administrator role.
-- Subscription Contributor role.
+- To create host pools and other objects, Contributor role on the subscription or resource group.
+- To publish app groups to users or user groups,User Access Admin role.
+- Custom roles are possible/supported. [Sample here] (https://github.com/DeanCefola/Azure-WVD/tree/master/WVD%20Permissions)
+
+
+## Security
+- An important point.
 
 ## 'Split' or 'Single' deployment options
 
