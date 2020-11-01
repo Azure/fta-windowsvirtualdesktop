@@ -16,3 +16,5 @@ Follow the tutorial
 ## FSLogix
 - [What is FSLogix?](https://docs.microsoft.com/en-us/fslogix/overview)
 - [Storage options for FSLogix profile containers in Windows Virtual Desktop](https://docs.microsoft.com/en-us/azure/virtual-desktop/fslogix-containers-azure-files)
+- [Setup Azure Files as FSLogix profile share with Active Directory integration](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-file-share)
+    
