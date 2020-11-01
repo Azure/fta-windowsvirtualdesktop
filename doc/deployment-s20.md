@@ -8,26 +8,8 @@
 - Users can run different types of workloads on VMs managed by Windows Virtual Desktop. 
 - Plan to scale your deployment depending on the expected need of [each type of user](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads).
 - Choose right VM size (Cores/Memory/Disk/Graphics) depending on the purpose.
-- For Multi-session (Pooled) [this](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#multi-session-recommendations) table lists the maximum suggested number of users per virtual central processing unit (vCPU) and the minimum VM configuration for each workload.
-
-
-
- - Virtual Machine Sizing. 
-   Examples 
-   D-Series 
-   for general purpose use cases
-
-   F-Series
-   High CPU demand
-   Low memory consumption
-
-   N-Series
-   Specialized virtual machines available with single, multiple, or fractional GPUs
-
-   Premium Storage 
-   Business-critical instances 
-   High I/O workloads
-
+- For [Multi-session (Pooled), this table](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#multi-session-recommendations) lists the maximum suggested number of users per virtual central processing unit (vCPU) and the minimum VM configuration for each workload.
+- VM sizing for [single-session VMs](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#single-session-recommendations) will likely align with physical device guidelines.
  
  - Profile Storage Sizing. (Mainly IOPS)
  
