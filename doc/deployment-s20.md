@@ -1,4 +1,4 @@
-# Deployment Spring 2020 Release
+# Deployment
 
 #### [prev](./deployment-f19.md) | [home](./welcome.md)  | [next](./management.md)
 
