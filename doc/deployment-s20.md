@@ -2,7 +2,7 @@
 
 #### [prev](./deployment-f19.md) | [home](./welcome.md)  | [next](./management.md)
 
-## Before you deploy
+## Before you Deploy.
 
 - Sizing is very important element for successful deployment of WVD.
 - Users can run different types of workloads on VMs managed by Windows Virtual Desktop. 
@@ -25,7 +25,7 @@
  
  
 
-## WVD Service
+## Lets Depoly.
 
 Follow the tutorial
 - Create a host pool with the Azure portal - step #1 in the tutorial
