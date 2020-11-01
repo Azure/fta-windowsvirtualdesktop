@@ -23,7 +23,7 @@ Host pool VMs must be domain joined to either an on-premises domain or to Azure 
 ## Access
 - To create host pools and other objects, Contributor role on the subscription or resource group.
 - To publish app groups to users or user groups,User Access Admin role.
-- Custom roles are possible/supported. [Sample here] (https://github.com/DeanCefola/Azure-WVD/tree/master/WVD%20Permissions)
+- Custom roles are possible/supported. [Sample here](https://github.com/DeanCefola/Azure-WVD/tree/master/WVD%20Permissions)
 
 
 ## Security
