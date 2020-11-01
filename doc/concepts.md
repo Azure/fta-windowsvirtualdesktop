@@ -33,11 +33,11 @@ An app group is a logical grouping of applications installed on session hosts in
 * RemoteApp, where users access the RemoteApps you individually select and publish to the app group
 * Desktop, where users access the full desktop
 
-By default, a desktop app group (named "Desktop Application Group") is automatically created whenever you create a host pool. You can remove this app group at any time. However, you can't create another desktop app group in the host pool while a desktop app group exists. To publish RemoteApps, you must create a RemoteApp app group. You can create multiple RemoteApp app groups to accommodate different worker scenarios. Different RemoteApp app groups can also contain overlapping RemoteApps.
+By default, a desktop app group named "HOSTPOOL-DAG" (Where HOSTPOOL is the actual pool name) (Friendly named "Desktop Application Group" which can be changed) is automatically created whenever you create a host pool. You can remove this app group at any time. However, you can't create another desktop app group in the host pool while a desktop app group exists. To publish RemoteApps, you must create a RemoteApp app group. You can create multiple RemoteApp app groups to accommodate different worker scenarios. Different RemoteApp app groups can also contain overlapping RemoteApps.
 
 To publish resources to users, you must assign them to app groups. When assigning users to app groups, consider the following things (as shared above):
 
-* A user can't be assigned to both a desktop app group and a RemoteApp app group in the same host pool.
+* A user can be assigned to both a desktop app group and a RemoteApp app group in the same host pool. However, users can only launch one type of app group per session. Users can't launch both types of app groups at the same time in a single session.
 * A user can be assigned to multiple app groups within the same host pool, and their feed will be an accumulation of both app groups.
 
 ## Workspaces
