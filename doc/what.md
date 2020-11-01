@@ -31,5 +31,5 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience
 
 ## Solution Overview
-In order to understand where all these pieces sit, please refer to the below high level diagram
+3 Main components
 ![Concept Diagram](/png/wvd-solution-overview.png)
