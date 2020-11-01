@@ -10,15 +10,11 @@
 These concepts will help you understand the hierarchy you need to establish in order to deploy WVD
 
 ## Structure
-* Tenants
 * Host pools
 * App Groups
+* Workspaces
 * End Users
-* Tenant Groups (limited use cases)
 
-## Tenants / WVD Workspaces
-The Windows Virtual Desktop tenant is the primary interface for managing your Windows Virtual Desktop environment. Each Windows Virtual Desktop tenant must be associated with the Azure Active Directory containing the users who will sign in to the environment. From the Windows Virtual Desktop tenant, you can begin creating host pools to run your users' workloads.
-The WVD Tenant was effectively the top level of WVD administration, this directly translates to a WVD Workspace in the ARM model. To publish applications or desktops to users, they need to be assigned to an “App Group” which in turn needs to be registered to a Workspace.
 
 ## Host pools
 A host pool is a collection of Azure virtual machines that register to Windows Virtual Desktop as session hosts when you run the Windows Virtual Desktop agent. All session host virtual machines in a host pool should be sourced from the same image for a consistent user experience.
@@ -44,11 +40,13 @@ To publish resources to users, you must assign them to app groups. When assignin
 * A user can't be assigned to both a desktop app group and a RemoteApp app group in the same host pool.
 * A user can be assigned to multiple app groups within the same host pool, and their feed will be an accumulation of both app groups.
 
+## Workspaces
+The Windows Virtual Desktop tenant is the primary interface for managing your Windows Virtual Desktop environment. Each Windows Virtual Desktop tenant must be associated with the Azure Active Directory containing the users who will sign in to the environment. From the Windows Virtual Desktop tenant, you can begin creating host pools to run your users' workloads.
+The WVD Tenant was effectively the top level of WVD administration, this directly translates to a WVD Workspace in the ARM model. To publish applications or desktops to users, they need to be assigned to an “App Group” which in turn needs to be registered to a Workspace.
+
 ## End users
 End users need to be the users from your Active Directory (AD) NOT your Azure Active Directory (AAD). This is because the virtual machines (or session hosts) are domain joined to your AD therefore the users need to exist there for them to be able to access the hosts and applications.  
 
-## Tenant Groups
-Tenant Groups are for CSPs or Hosting Partners who need to manage multiple WVD tenants at once. You can have a tenant for each customer that you manage in a central location for ease of operation.
 
 ## Visual Representation
 In order to understand where all these pieces sit, please refer to the below high level diagram
