@@ -4,14 +4,17 @@
 
 ## Before you deploy
 
-- Sizing is very important element for successful deployment of WVD
+- Sizing is very important element for successful deployment of WVD.
 - Users can run different types of workloads on VMs managed by Windows Virtual Desktop. 
 - Plan to scale your deployment depending on the expected need of [each type of user](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/remote-desktop-workloads).
 - Choose right VM size (Cores/Memory/Disk/Graphics) depending on the purpose.
 - For [Multi-session (Pooled), this table](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#multi-session-recommendations) lists the maximum suggested number of users per virtual central processing unit (vCPU) and the minimum VM configuration for each workload.
 - VM sizing for [single-session VMs](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/virtual-machine-recs?context=/azure/virtual-desktop/context/context#single-session-recommendations) will likely align with physical device guidelines.
  
- - Profile Storage Sizing. (Mainly IOPS)
+ - Profile Storage Sizing. (Mainly IOPS).
+    - Requirements can vary widely depending on the user, applications, and activity on each profile.
+    - General requirements, Steady state IOPS	10, Sign-in/sign-out IOPS	50 per user
+    - [Refer details here](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#performance-requirements)
  
  
  
