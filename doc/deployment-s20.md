@@ -17,10 +17,10 @@
     - [Refer details here](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix#performance-requirements)
   - End user network bandwidth [requirements](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/network-guidance). 
     Recommended bandwidth based on workloads (user personas)
-      Light	1.5 Mbps
-      Medium	3 Mbps
-      Heavy	5 Mbps
-      Power	15 Mbps
+      - Light	1.5 Mbps
+      - Medium	3 Mbps
+      - Heavy	5 Mbps
+      - Power	15 Mbps
 
  
  
