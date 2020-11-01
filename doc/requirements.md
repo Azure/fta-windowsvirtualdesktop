@@ -4,7 +4,7 @@
 
 The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
-> Note that there are two WVD documentations, one for the [current release](https://docs.microsoft.com/en-us/azure/virtual-desktop/) aka Spring 2020 and [Classic Release](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory) aka Fall 2019 release.
+> Note that there are two WVD documentations, one for the [Current release](https://docs.microsoft.com/en-us/azure/virtual-desktop/) aka Spring 2020 and [Classic Release](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory) aka Fall 2019 release.
 
 ## Supporting infrastructure
 - Azure subscription.
