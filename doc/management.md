@@ -4,7 +4,7 @@
 
 ## Host VM Image.
 - Custom Image. Use standard process of generalizing (sysprep).
-- Would vary depending the requiremente but typical steps are to install standard softwares, customize for "Multi-session" environment etc.
+- Would vary depending the requirements but typical steps are to install standard softwares, customize for "Multi-user" environment etc.
 - [Create a VM from image](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
 - [Customize image for Office applications](https://docs.microsoft.com/en-us/azure/virtual-desktop/install-office-on-wvd-master-image)
 
@@ -21,7 +21,8 @@
 -  MEM support for multi-session is on the roadmap. 
 
 ## Automation 
--  Start/Stop VMs to save cost. Official solution is available which is based on [Azure Automation/Logic App](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script)
+-  Start/Stop VMs to save cost. Official solution is available which is based on [Azure Automation/Logic App](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script).
+-  [ARM Templates[(https://github.com/Azure/RDS-Templates/tree/master/ARM-wvd-templates) to create new host pools/add VMs to existing.
 
 ## Management related links Fall 2019
 - https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
