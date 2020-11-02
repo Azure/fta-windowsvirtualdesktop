@@ -1,3 +1,15 @@
+## Source Image Creation
+- Custom image. Use standard process of generalizing (sysprepping).
+- Would vary depending the requirement but typical steps are to install standard softwares, customize for "Multi-session" environment etc.
+- [Create a VM from image](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
+- [Customize image for Office applications](https://docs.microsoft.com/en-us/azure/virtual-desktop/install-office-on-wvd-master-image)
+
+## Host VM Management.
+- Microsoft Endpoint Configuration Manager branch level 1906 and above for applying updates Multi-session Windows 10.
+- Other approaches like Windows update for business 
+- Installing / updating applications.
+- Use [Azure Image Creator](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
+
 # Management
 
 #### [prev](./deployment-s20.md) | [home](./welcome.md)  | [next](./resources.md)
