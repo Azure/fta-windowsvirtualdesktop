@@ -25,6 +25,9 @@
 -  [ARM Templates](https://github.com/Azure/RDS-Templates/tree/master/ARM-wvd-templates) to create new host pools/add VMs to existing.
 -  Build Image using [Azure DevOps and Azure Image Builder](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/building-a-windows-10-enterprise-multi-session-master-image-with/m-p/1503913)
 
+## Monitor WVD Environment
+-  Use [Azure Monitor](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/proactively-monitor-arm-based-windows-virtual-desktop-with-azure/ba-p/1508735)
+
 ## Management related links Fall 2019
 - https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
 - https://rdweb.wvd.microsoft.com/webclient/index.html
