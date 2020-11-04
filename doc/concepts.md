@@ -2,13 +2,6 @@
 
 #### [prev](./what.md) | [home](./welcome.md)  | [next](./requirements.md)
 
-## Helpful links
-[Windows Virtual Desktop Environment](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup)
-
-[Azure Academy - Building WVD Environment](https://aka.ms/AzureAcademy-WVD)
-
-These concepts will help you understand the hierarchy you need to establish in order to deploy WVD
-
 ## Structure
 * Host pools
 * App Groups
@@ -51,3 +44,11 @@ End users need to be the users from your Active Directory (AD) NOT your Azure Ac
 ## Visual Representation
 In order to understand where all these pieces sit, please refer to the below high level diagram
 ![Concept Diagram](/png/wvd-concepts-diag.png)
+
+## Helpful links
+[Windows Virtual Desktop Environment](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup)
+
+[Azure Academy - Building WVD Environment](https://aka.ms/AzureAcademy-WVD)
+
+These concepts will help you understand the hierarchy you need to establish in order to deploy WVD
+
