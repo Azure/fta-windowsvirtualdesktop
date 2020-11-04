@@ -23,8 +23,8 @@
       - Power	15 Mbps
 
 ## Azure Landing Zone
--  It is still a IaaS pattern of cloud, so good planning around Azure goverenance, security, management is very important
--  Attend any of our FTA Goverenance session.
+-  It is still a IaaS pattern of cloud, so good planning around Azure governance, security, management is very important.
+-  Attend any of our FastTrack for Azure Governance call to learn more.
  
 ## Lets Depoly.
 
