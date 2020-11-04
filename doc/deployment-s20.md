@@ -22,9 +22,10 @@
       - Heavy	5 Mbps
       - Power	15 Mbps
 
+## Azure Landing Zone
+-  It is still a IaaS pattern of cloud, so good planning around Azure goverenance, security, management is very important
+-  Attend any of our FTA Goverenance session.
  
- 
-
 ## Lets Depoly.
 
 Follow the tutorial
