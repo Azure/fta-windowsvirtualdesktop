@@ -1,6 +1,6 @@
 # Requirements
 
-#### [prev](./concepts.md) | [home](./welcome.md)  | [next](./deployment-f19.md)
+#### [prev](./concepts.md) | [home](./welcome.md)  | [next](./deployment-s20.md)
 
 The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
