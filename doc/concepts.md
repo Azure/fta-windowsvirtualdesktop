@@ -45,7 +45,8 @@ End users need to be the users from your Active Directory (AD) NOT your Azure Ac
 In order to understand where all these pieces sit, please refer to the below high level diagram
 ![Concept Diagram](/png/wvd-concepts-diag.png)
 
-End user is WVD Remote Desktop Client.
+End user is WVD Remote Desktop Client
+
 ![End user view](/png/wvd-solution-end-user-view.png)
 
 ## Helpful links
