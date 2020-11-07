@@ -28,52 +28,22 @@
 ## Monitor WVD Environment
 -  Use [Azure Monitor](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/proactively-monitor-arm-based-windows-virtual-desktop-with-azure/ba-p/1508735)
 
-## Management related links Fall 2019
-- https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
-- https://rdweb.wvd.microsoft.com/webclient/index.html
-- https://rdbroker.wvd.microsoft.com
+## Security
+-  Gateway/Broker etc is Microsoft Managed. Reverse Connect so no inbound public access to Host VMs
+-  MFA, Conditional Access
+-  RemoteApp instead of full desktops
+-  Endpoint protection. 
+-  Disconnect inactive sessions 
+-  Screen lock.
+-  Device redirection restrictions 
+-  Endoint Security. Intune/MDM.
+-  WVD Infrastrcture Network Security, NSG, NVA/Firewall 
 
-## Management related links Spring 2020
-- https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy
-- https://rdweb.wvd.microsoft.com/arm/webclient/index.html
-
-## Updates coming to the service Public Preview
-- Expected public preview date: out now!
-- Expected General Availability date: details coming soon.
-- Keep an eye here https://azure.microsoft.com/en-us/updates/
-- Integration with ARM.
-- Geo distribution to host WVD data.
-
-## What happens to my previous deployments
-- You will be expected to migrate to the latest release (ARM integrated release)
-- There will be a grace period (this length has not been decided).
-- Your existing host pools won't change.
-
-## Management Portal
-- Management Portal is deployed from [GitHub](https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux/deploy) 
-- Deploy from here using the AD Tenant used to register your domain against 
-- Deploy this early.
-
-## Monitoring Tenant, VMs, Sessions
-- Monitoring of the host pools is no different to monitoring Azure Virtual Machines.
-- Use Azure Monitor with Log Analytics.
-- There are free 3rd party solution to help create dashboards.
-
-## Image Maintenance
-- Patching host pool VMs.
-- Installing / updating applications.
-- Use [Azure Image Creator](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/capture-image-resource)
-
-## Automate scale and host pool VM deployments
-- [Scale session hosts using Azure Automation](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/set-up-scaling-script)
-
-## Troubleshooting
-- Host pools are just VMs.
-- Interact with the WVD service using PowerShell.
-
-## Client Options
-- Mapped drives and printers.
-- Security.
-- Remote app Start menu integration.
-- [Supported Remote Desktop RDP file settings](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/rdp-files?context=/azure/virtual-desktop/context/context)
-
+## Feature update roadmap.
+-  Latency improvements in varios regions (Gateways)
+-  Direct connectivity between client and session hosts over managed networks.
+-  Metadata in EU region.
+-  Prevent screen capturing.
+-  Start host VM on connect.
+-  MEM (Intune) support for Windows 10 multi-session.
+-  MSIX App attach.
