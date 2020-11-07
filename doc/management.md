@@ -39,7 +39,7 @@
 -  Endoint Security. Intune/MDM.
 -  WVD Infrastrcture Network Security, NSG, NVA/Firewall 
 
-## Feature update roadmap
+## Feature roadmap
 -  Latency improvements in varios regions (Gateways)
 -  Direct connectivity between client and session hosts over managed networks.
 -  Metadata in EU region.
