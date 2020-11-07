@@ -2,7 +2,7 @@
 
 #### [prev](./welcome.md) | [home](./welcome.md)  | [next](./concepts.md)
 
-App virtualization and Remote Desktop as a Service
+Remote Desktop as a Service and App virtualization solution
 [https://docs.microsoft.com/en-us/azure/virtual-desktop/overview](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)
 
 In the past if you wanted deploy Remote Desktop Services (RDS) it was complex with several components which needed to be deployed and managed by the customer
