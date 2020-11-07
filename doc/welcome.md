@@ -18,4 +18,3 @@ Agenda
 1. [Management](./management.md)
 1. [Resources](./resources.md)
 1. [Training](./training.md)
-1. [QnA](/faq.md)
