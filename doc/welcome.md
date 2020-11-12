@@ -13,9 +13,8 @@ Agenda
 1. [What is Windows Virtual Desktop?](./what.md)
 1. [Concepts](./concepts.md)
 1. [Requirements](./requirements.md)
-1. [Deployment](./deployment-f19.md)
+1. [Deployment](./deployment-s20.md)
 1. Demo
 1. [Management](./management.md)
 1. [Resources](./resources.md)
 1. [Training](./training.md)
-1. [QnA](/faq.md)

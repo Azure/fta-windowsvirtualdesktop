@@ -1,13 +1,10 @@
 # Requirements
 
-#### [prev](./concepts.md) | [home](./welcome.md)  | [next](./deployment-f19.md)
+#### [prev](./concepts.md) | [home](./welcome.md)  | [next](./deployment-s20.md)
 
 The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
-> Note the documentation is split into [Spring 2020](https://docs.microsoft.com/en-us/azure/virtual-desktop/) release and [Fall 2019](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory) release.
-
-## Security
-- An important point.
+> Note that there are two WVD documentations, one for the [Current release](https://docs.microsoft.com/en-us/azure/virtual-desktop/) aka Spring 2020 and [Classic Release](https://docs.microsoft.com/en-us/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory) aka Fall 2019 release.
 
 ## Supporting infrastructure
 - Azure subscription.
@@ -15,7 +12,7 @@ The WVD Docs article lists all requirements on the 'Overview' page located [here
 - Domain Services: 
 Host pool VMs must be domain joined to either an on-premises domain or to Azure AD Domain Services (AADDS).
 - Users synced to Azure AD: this means deploying Azure AD Connect if using on-premises domain services.
-- File Services: To enable persistent profile for users a file service is needed which supports domain integration. Azure Files can be used for this.
+- File Services: To enable persistent profile for users a file service is needed which supports domain integration. Depending on requirements (read sizing), SOFS on Windows VM based File shares, Azure Files, Azure NetApp Files can be used for this.
 - Azure networking.
 - Network connectivity to production systems.
 
@@ -24,8 +21,13 @@ Host pool VMs must be domain joined to either an on-premises domain or to Azure 
 - Firewall rules.
 
 ## Access
-- Global Administrator role.
-- Subscription Contributor role.
+- To create host pools and other objects, Contributor role on the subscription or resource group.
+- To publish app groups to users or user groups,User Access Admin role.
+- Custom roles are possible/supported. [Sample here](https://github.com/DeanCefola/Azure-WVD/tree/master/WVD%20Permissions)
+
+
+## Security
+- An important point.
 
 ## 'Split' or 'Single' deployment options
 

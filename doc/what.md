@@ -2,7 +2,7 @@
 
 #### [prev](./welcome.md) | [home](./welcome.md)  | [next](./concepts.md)
 
-App virtualization and Remote Desktop as a Service
+Remote Desktop as a Service and App virtualization solution
 [https://docs.microsoft.com/en-us/azure/virtual-desktop/overview](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)
 
 In the past if you wanted deploy Remote Desktop Services (RDS) it was complex with several components which needed to be deployed and managed by the customer
@@ -21,3 +21,15 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * [Conditional Access](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)
 * [Windows 10 VPN](https://docs.microsoft.com/en-us/windows/security/identity-protection/vpn/vpn-guide)
 * Partner products such as Citrix, VMWare
+
+## What you can with WVD
+* Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability
+* Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios
+* Provide Windows 7 virtual desktops with free Extended Security Updates
+* Bring your existing Remote Desktop Services (RDS) and Windows Server desktops and apps to any computer
+* Virtualize both desktops and apps
+* Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience
+
+## Solution Overview
+3 Main components
+![Concept Diagram](/png/wvd-solution-overview.png)
