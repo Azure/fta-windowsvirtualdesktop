@@ -5,7 +5,7 @@
 Cloud based VDI solution for Desktop and App virtualization.
 [https://docs.microsoft.com/en-us/azure/virtual-desktop/overview](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview)
 
-Hosting VDI or Remote Desktop Services is a complex task with several components which needed to be deployed and managed by the customer
+Hosting VDI or Remote Desktop Services on-premises is a complex task with several components which needed to be deployed and managed.
 see [reference architecture](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/desktop-hosting-logical-architecture)
 
 ## Possible Scenarios
