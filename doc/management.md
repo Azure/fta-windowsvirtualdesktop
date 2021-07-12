@@ -11,19 +11,21 @@
 ## Ongoing Management/updates
 -  Build new image, set existing to drain mode, replace VMs from new image.
 -  This works best for Pooled Hosts with FSLogix profiles. (Profiles are decoupled)
--  With MSIX App Attach (In Public Preview), applications can also be decoupled from OS. 
+-  With MSIX App Attach, applications can also be decoupled from OS. 
 -  Microsoft Endpoint Configuration Manager branch level 1906 and above for applying [updates](https://docs.microsoft.com/en-us/azure/virtual-desktop/configure-automatic-updates) Multi-session Windows 10.
 -  Other approaches like Windows update for business may work with some caveats. 
 
 ## Device Management
 -  Windows 10 Enterprise multi-session supports to be hybrid Azure AD-joined.
--  You can manage Active Directory or hybrid Azure Active Directory joined **Windows 10 Enterprise** Virtual Desktop VMs with Microsoft Endpoint Manager (Intune)
--  MEM support for multi-session is on the roadmap. 
+-  You can manage Active Directory or hybrid Azure Active Directory joined **Windows 10 Enterprise** Virtual Desktop VMs with Microsoft Endpoint Manager (Intune).
+-  MEM support for multi-session is now in Public Preview. 
+-  Azure AD Conditional Access Policies.
 
 ## Automation 
 -  Start/Stop VMs to save cost. Official solution is available which is based on [Azure Automation/Logic App](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script).
 -  [ARM Templates](https://github.com/Azure/RDS-Templates/tree/master/ARM-wvd-templates) to create new host pools/add VMs to existing.
 -  Build Image using [Azure DevOps and Azure Image Builder](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/building-a-windows-10-enterprise-multi-session-master-image-with/m-p/1503913)
+-  Start VM on Connect feature is in Public Preview.
 
 ## Monitor AVD Environment
 -  Use [Azure Monitor](https://docs.microsoft.com/en-us/azure/virtual-desktop/azure-monitor)
