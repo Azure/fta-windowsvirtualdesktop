@@ -17,4 +17,3 @@ Agenda
 1. Demo
 1. [Management](./management.md)
 1. [Resources](./resources.md)
-1. [Training](./training.md)
