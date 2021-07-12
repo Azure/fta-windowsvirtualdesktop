@@ -25,8 +25,8 @@
 -  [ARM Templates](https://github.com/Azure/RDS-Templates/tree/master/ARM-wvd-templates) to create new host pools/add VMs to existing.
 -  Build Image using [Azure DevOps and Azure Image Builder](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/building-a-windows-10-enterprise-multi-session-master-image-with/m-p/1503913)
 
-## Monitor WVD Environment
--  Use [Azure Monitor](https://techcommunity.microsoft.com/t5/windows-it-pro-blog/proactively-monitor-arm-based-windows-virtual-desktop-with-azure/ba-p/1508735)
+## Monitor AVD Environment
+-  Use [Azure Monitor](https://docs.microsoft.com/en-us/azure/virtual-desktop/azure-monitor)
 
 ## Security
 -  Gateway/Broker etc is Microsoft Managed. Reverse Connect so no inbound public access to Host VMs
@@ -37,13 +37,24 @@
 -  Screen lock.
 -  Device redirection restrictions 
 -  Endoint Security. Intune/MDM.
--  WVD Infrastrcture Network Security, NSG, NVA/Firewall 
+-  AVD Infrastrcture Network Security, NSG, NVA/Firewall 
 
-## Feature roadmap
--  Latency improvements in varios regions (Gateways)
--  Direct connectivity between client and session hosts over managed networks.
--  Metadata in EU region.
--  Prevent screen capturing.
--  Start host VM on connect.
--  MEM (Intune) support for Windows 10 multi-session.
--  MSIX App attach.
+## Recently launched features. 
+-  Single Sign on with ADFS (no second password prompt)
+-  MSIX App Attach
+-  Improved Pricing Calculator (with per user pricing)
+
+## Features in Public Preview.
+-  Start VM on Connect (Save $$)
+-  MEM (Intune) support for multi-session. 
+-  RDP Shortpath aka UDP support over Managed networks.(Faster protocol)
+-  Screen capture protection.(Security)
+-  Getting Started Wizard (QuickStart)
+
+## Roadmap.
+-  Metadata in Australia and Japan regions
+-  WVD Classic to AVD Migration Tool
+-  AAD Join support
+
+
+
