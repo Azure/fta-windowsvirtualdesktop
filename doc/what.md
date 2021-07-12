@@ -1,4 +1,4 @@
-# What is Windows Virtual Desktop (WVD)?
+# What is Azure Virtual Desktop ?
 
 #### [prev](./welcome.md) | [home](./welcome.md)  | [next](./concepts.md)
 
