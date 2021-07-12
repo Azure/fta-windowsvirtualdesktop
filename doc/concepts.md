@@ -44,6 +44,7 @@ End users need to be the users from your Active Directory which are then sycned 
 
 This is because the virtual machines (or session hosts) are domain joined to your AD therefore the users need to exist there for them to be able to access the hosts and applications.  
 
+Azure AD Domain Service can be used instead of traditional AD (though its less common). In this case the sync requirement are different. 
 
 ## Visual Representation
 In order to understand where all these pieces sit, please refer to the below high level diagram
