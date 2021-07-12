@@ -1,4 +1,4 @@
-# Welcome to the FastTrack for Azure Windows Virtual Desktop Call
+# Welcome to the FastTrack for Azure Virtual Desktop Call
 ## We will start 3-4 minutes after the scheduled time to accommodate those still connecting
 
 > This call will not be recorded due to the wide audience and to encourage questions.
@@ -10,7 +10,7 @@
 Please give us your feedback on https://aka.ms/ftalive-wvd-feedback
 
 Agenda
-1. [What is Windows Virtual Desktop?](./what.md)
+1. [What is Azure Virtual Desktop?](./what.md)
 1. [Concepts](./concepts.md)
 1. [Requirements](./requirements.md)
 1. [Deployment](./deployment-s20.md)
