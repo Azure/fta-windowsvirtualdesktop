@@ -2,7 +2,7 @@
 
 #### [prev](./concepts.md) | [home](./welcome.md)  | [next](./deployment-s20.md)
 
-The WVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
+The AVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
 ## Supporting infrastructure
 - Azure subscription.
