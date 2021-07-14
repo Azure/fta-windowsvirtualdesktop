@@ -22,3 +22,4 @@
 - [Azure Virtual Desktop for the Enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop)
 - [FSLogix for the Enterprise](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix)
 - [Azure Academy AVD Playlist](https://aka.ms/AzureAcademy-WVD)
+- [Enterprise-scale landing zone support for Azure Virtual Desktop](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/wvd/enterprise-scale-landing-zone)
