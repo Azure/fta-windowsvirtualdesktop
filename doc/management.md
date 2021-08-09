@@ -48,6 +48,7 @@
 -  Start VM on Connect (Save $$)
 
 ## Features in Public Preview.
+-  AAD Join support
 -  MEM (Intune) support for multi-session. 
 -  RDP Shortpath aka UDP support over Managed networks.(Faster protocol)
 -  Screen capture protection.(Security)
@@ -56,7 +57,6 @@
 ## Roadmap.
 -  Metadata in Australia and Japan regions
 -  WVD Classic to AVD Migration Tool
--  AAD Join support
 
 
 
