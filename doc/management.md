@@ -45,9 +45,9 @@
 -  Single Sign on with ADFS (no second password prompt)
 -  MSIX App Attach
 -  Improved Pricing Calculator (with per user pricing)
+-  Start VM on Connect (Save $$)
 
 ## Features in Public Preview.
--  Start VM on Connect (Save $$)
 -  MEM (Intune) support for multi-session. 
 -  RDP Shortpath aka UDP support over Managed networks.(Faster protocol)
 -  Screen capture protection.(Security)
