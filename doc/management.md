@@ -25,7 +25,7 @@
 -  Start/Stop VMs to save cost. Official solution is available which is based on [Azure Automation/Logic App](https://docs.microsoft.com/en-us/azure/virtual-desktop/set-up-scaling-script).
 -  [ARM Templates](https://github.com/Azure/RDS-Templates/tree/master/ARM-wvd-templates) to create new host pools/add VMs to existing.
 -  Build Image using [Azure DevOps and Azure Image Builder](https://techcommunity.microsoft.com/t5/windows-virtual-desktop/building-a-windows-10-enterprise-multi-session-master-image-with/m-p/1503913)
--  Start VM on Connect feature is in Public Preview.
+-  Start VM on Connect can be levaraged.
 
 ## Monitor AVD Environment
 -  Use [Azure Monitor](https://docs.microsoft.com/en-us/azure/virtual-desktop/azure-monitor)
