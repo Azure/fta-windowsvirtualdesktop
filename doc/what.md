@@ -23,7 +23,7 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * [Windows 10 VPN](https://docs.microsoft.com/en-us/windows/security/identity-protection/vpn/vpn-guide)
 * Partner products such as Citrix, VMWare
 
-## What you can with AVD
+## What can you do with AVD
 * Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability
 * Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios
 * Provide Windows 7 virtual desktops with free Extended Security Updates
