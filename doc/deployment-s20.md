@@ -34,7 +34,7 @@ Follow the tutorial
 - Create a host pool to validate service updates - step #3 in the tutorial
 - Set up service alerts - step #4 in the tutorial
 
-[WVD Tutorial](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)
+[AVD Tutorial](https://docs.microsoft.com/en-us/azure/virtual-desktop/create-host-pools-azure-marketplace)
 
 
 ## FSLogix
