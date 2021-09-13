@@ -18,8 +18,7 @@ A host pool can be one of two types:
 * Personal, where each session host is assigned to individual users.
 * Pooled, where session hosts can accept connections from any user authorized to an app group within the host pool.
 
-You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Windows Virtual Desktop sessions. You control the resources published to users through app groups.
-A key consideration is that you need a host pool for users to access desktops and applications. Currently the service is limited in that you can either access desktops OR applications from within a host pool, not both. However users CAN be assigned to multiple app groups.  
+You can set additional properties on the host pool to change its load-balancing behavior, how many sessions each session host can take, and what the user can do to session hosts in the host pool while signed in to their Windows Virtual Desktop sessions.  
 
 ## Application Groups
 Application groups are logical grouping of applications and desktops for a given Host Pool. They are two types:
@@ -27,7 +26,7 @@ Application groups are logical grouping of applications and desktops for a given
 * Desktop, where users access the full desktop
 * RemoteApp, where users access the RemoteApps you individually select and publish to the app group
 
-By default, a desktop app group named "HOSTPOOL-DAG" (Where HOSTPOOL is the actual pool name) (Friendly named "Desktop Application Group" which can be changed) is automatically created whenever you create a host pool. You can remove this app group at any time. However, you can't create another desktop app group in the host pool while a desktop app group exists. To publish RemoteApps, you must create a RemoteApp app group. You can create multiple RemoteApp app groups to accommodate different worker scenarios. Different RemoteApp app groups can also contain overlapping RemoteApps.
+You can create multiple RemoteApp app groups to accommodate different worker scenarios. Different RemoteApp app groups can also contain overlapping Apps.
 
 To publish resources to users, you must assign them to app groups. When assigning users to app groups, consider the following things (as shared above):
 
