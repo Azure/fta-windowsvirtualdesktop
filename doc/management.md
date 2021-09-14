@@ -55,7 +55,7 @@
 -  Getting Started Wizard (QuickStart).
 -  Multimedia Redirection (MMR).
 -  WVD Classic to AVD Migration Tool.
-- 
+-  
 ## Roadmap.
 -  Metadata in Australia and Japan regions.
 
