@@ -46,17 +46,18 @@
 -  MSIX App Attach
 -  Improved Pricing Calculator (with per user pricing)
 -  Start VM on Connect (Save $$)
+-  Screen capture protection.(Security)
 
 ## Features in Public Preview.
 -  AAD Join support
 -  MEM (Intune) support for multi-session. 
 -  RDP Shortpath aka UDP support over Managed networks.(Faster protocol)
--  Screen capture protection.(Security)
 -  Getting Started Wizard (QuickStart)
-
+-  WVD Classic to AVD Migration Tool
+- 
 ## Roadmap.
 -  Metadata in Australia and Japan regions
--  WVD Classic to AVD Migration Tool
+
 
 
 
