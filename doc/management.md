@@ -46,7 +46,7 @@
 -  MSIX App Attach.
 -  Improved Pricing Calculator (with per user pricing).
 -  Start VM on Connect (Save $$).
--  Screen capture protection.(Security).
+-  Screen capture protection (Security).
 
 ## Features in Public Preview.
 -  AAD Join support.
