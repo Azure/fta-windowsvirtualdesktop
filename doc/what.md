@@ -14,6 +14,16 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * Resource optimization e.g applications that are resource intensive.
 * VPN replacement. 
 
+## End user computing nees are evolving.
+* Keeping data and resources safe while enabling appropriate level access for users.
+* Ensuring compliance and local regulations across industries like financial services, health care, government etc.
+* Access to IT services on demand for an increasingly elastic workforce (mergers/acquisitions, short-term employees, contractors, partners)
+* Meeting employee-specific needs (BYOD or mobile staff, call centers, branch workers)
+* Supporting specialized workloads (design/engineering, legacy apps, software development and testing)
+
+## Microsoft cloud solutions such as AVD powered by Azure can help provide a secure way delivering desktops and apps virtually anywhere. 
+* Comes with built-in security and the scale/agility of Azure.
+
 ## Other Enablers for Remote Workers
 * [Remote Desktop](https://docs.microsoft.com/en-us/windows/win32/termserv/remote-desktop-protocol)
 * [AAD Application Proxy](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy)
