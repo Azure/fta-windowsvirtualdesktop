@@ -5,6 +5,7 @@
 The AVD Docs article lists all requirements on the 'Overview' page located [here](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview). 
 
 ## Supporting infrastructure
+- Licensing elgibility.
 - Azure subscription.
 - Azure AD tenant.
 - Domain Services: 
