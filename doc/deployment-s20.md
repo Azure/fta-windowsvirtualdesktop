@@ -25,6 +25,7 @@
 ## Azure Landing Zone
 -  It is still a IaaS pattern of cloud, so good planning around Azure governance, security, management is very important.
 -  Attend our FastTrack for Azure Governance call to learn more.
+-  Refer Azure Cloud Adoption Framework for guidelines. (Ready phase).
  
 ## Lets Depoly.
 
