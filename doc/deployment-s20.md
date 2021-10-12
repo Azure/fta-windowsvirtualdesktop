@@ -21,7 +21,12 @@
       - Medium	3 Mbps
       - Heavy	5 Mbps
       - Power	15 Mbps
-
+- User/client connectivity.
+  - AVD Client apps, HTML5 compatible browsers.
+  - Apps from respective stores. 
+  - Windows comes wiht two apps, a store app and regular Windows client.
+  - Features/capabilities differs. 
+  
 ## Azure Landing Zone
 -  It is still a IaaS pattern of cloud, so good planning around Azure governance, security, management is very important.
 -  Attend our FastTrack for Azure Governance call to learn more.
