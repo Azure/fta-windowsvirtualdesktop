@@ -14,6 +14,8 @@ Host pool VMs must be domain joined to either an on-premises domain or to Azure 
 - File Services: To enable persistent profile for users a file service is needed which supports domain integration. Depending on requirements (read sizing), SOFS on Windows VM based File shares, Azure Files, Azure NetApp Files can be used for this.
 - Azure networking.
 - Network connectivity to production systems.
+- Client apps/devices.
+- MDM/Azure AD Premium (Optional).
 
 ## End to end connectivity
 - Routing.
