@@ -43,4 +43,4 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 
 ## Solution Overview
 3 Main components
-![Concept Diagram](/png/wvd-solution-overview.png)
+![Concept Diagram](/png/wvd-solution-overview1.png)
