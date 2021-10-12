@@ -14,7 +14,7 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * Resource optimization e.g applications that are resource intensive.
 * VPN replacement. 
 
-## End user computing nees are evolving.
+## End user computing needs are evolving
 * Keeping data and resources safe while enabling appropriate level access for users.
 * Ensuring compliance and local regulations across industries like financial services, health care, government etc.
 * Access to IT services on demand for an increasingly elastic workforce (mergers/acquisitions, short-term employees, contractors, partners)
