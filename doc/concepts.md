@@ -47,7 +47,7 @@ Azure AD Domain Service can be used instead of traditional AD (though its less c
 
 ## Visual Representation
 In order to understand where all these pieces sit, please refer to the below high level diagram
-![Concept Diagram](/png/wvd-concepts-diag.png)
+![Concept Diagram](/png/wvd-solution-host-pool-view.png)
 
 End user representation from AVD Remote Desktop Client
 
