@@ -47,9 +47,9 @@
 -  Improved Pricing Calculator (with per user pricing).
 -  Start VM on Connect (Save $$).
 -  Screen capture protection (Security).
+-  AAD Join support.
 
 ## Features in Public Preview.
--  AAD Join support.
 -  MEM (Intune) support for multi-session. 
 -  RDP Shortpath aka UDP support over Managed networks (Faster protocol).
 -  Getting Started Wizard (QuickStart).
