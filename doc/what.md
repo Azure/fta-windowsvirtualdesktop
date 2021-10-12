@@ -42,5 +42,5 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience.
 
 ## Solution Overview
-
+* Remote users can use variaty of platforms, devices and clients to connect. Windows AVD Client is most popular way.
 ![Concept Diagram](/png/wvd-solution-overview1.png)
