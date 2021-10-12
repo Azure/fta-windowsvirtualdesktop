@@ -9,7 +9,7 @@ Hosting VDI or Remote Desktop Services on-premises is a complex task with severa
 see [reference architecture](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/desktop-hosting-logical-architecture)
 
 ## Possible Scenarios
-* Enabling remote working in short time-frames, tactical response. (Covid!)
+* Enabling remote working in short time-frames, tactical response. (Covid!).
 * Legacy LOB application that have no native way to share across platforms and devices.
 * Resource optimization e.g applications that are resource intensive.
 * VPN replacement. 
@@ -17,9 +17,9 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 ## End user computing needs are evolving
 * Keeping data and resources safe while enabling appropriate level access for users.
 * Ensuring compliance and local regulations across industries like financial services, health care, government etc.
-* Access to IT services on demand for an increasingly elastic workforce (mergers/acquisitions, short-term employees, contractors, partners)
-* Meeting employee-specific needs (BYOD or mobile staff, call centers, branch workers)
-* Supporting specialized workloads (design/engineering, legacy apps, software development and testing)
+* Access to IT services on demand for an increasingly elastic workforce (mergers/acquisitions, short-term employees, contractors, partners).
+* Meeting employee-specific needs (BYOD or mobile staff, call centers, branch workers).
+* Supporting specialized workloads (design/engineering, legacy apps, software development and testing).
 
 ## Microsoft cloud solutions such as AVD powered by Azure can help provide a secure way delivering desktops and apps virtually anywhere. 
 * Comes with built-in security and the scale/agility of Azure.
@@ -34,12 +34,12 @@ see [reference architecture](https://docs.microsoft.com/en-us/windows-server/rem
 * Partner products such as Citrix, VMWare
 
 ## What can you do with AVD
-* Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability
-* Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios
-* Provide Windows 7 virtual desktops with free Extended Security Updates
-* Bring your existing Remote Desktop Services (RDS) and Windows Server desktops and apps to any computer
-* Virtualize both desktops and apps
-* Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience
+* Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability.
+* Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios.
+* Provide Windows 7 virtual desktops with free Extended Security Updates.
+* Bring your existing Remote Desktop Services (RDS) and Windows Server desktops and apps to any computer.
+* Virtualize both desktops and apps.
+* Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience.
 
 ## Solution Overview
 3 Main components
