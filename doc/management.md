@@ -49,7 +49,7 @@
 -  Screen capture protection (Security).
 -  AAD Join support.
 -  RDP Shortpath aka UDP support over Managed networks (Faster protocol).
--  
+
 ## Features in Public Preview.
 -  MEM (Intune) support for multi-session. 
 -  Autoscaling feature built-in to UI.
