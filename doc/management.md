@@ -48,10 +48,11 @@
 -  Start VM on Connect (Save $$).
 -  Screen capture protection (Security).
 -  AAD Join support.
-
+-  RDP Shortpath aka UDP support over Managed networks (Faster protocol).
+-  
 ## Features in Public Preview.
 -  MEM (Intune) support for multi-session. 
--  RDP Shortpath aka UDP support over Managed networks (Faster protocol).
+-  Autoscaling feature built-in to UI.
 -  Getting Started Wizard (QuickStart).
 -  Multimedia Redirection (MMR).
 -  WVD Classic to AVD Migration Tool.
