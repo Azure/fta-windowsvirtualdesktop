@@ -42,15 +42,19 @@
 -  AVD Infrastrcture Network Security, NSG, NVA/Firewall.
 
 ## Recently launched features. 
+
+-  Personal Desktop Unassignment/Reassignment. 
+-  AAD Join support.
+-  RDP Shortpath aka UDP support over Managed networks (Faster protocol).
 -  Single Sign on with ADFS (no second password prompt).
 -  MSIX App Attach.
 -  Improved Pricing Calculator (with per user pricing).
 -  Start VM on Connect (Save $$).
 -  Screen capture protection (Security).
--  AAD Join support.
--  RDP Shortpath aka UDP support over Managed networks (Faster protocol).
 
 ## Features in Public Preview.
+-  Teams Optimization on MacOS.
+-  FSLogix profiles support for Azure AD-joined Hosts.
 -  MEM (Intune) support for multi-session. 
 -  Autoscaling feature built-in to UI.
 -  Getting Started Wizard (QuickStart).
