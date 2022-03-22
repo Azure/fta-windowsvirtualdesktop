@@ -56,7 +56,7 @@ End user representation from AVD Remote Desktop Client
 ## Helpful links
 [Azure Virtual Desktop Environment](https://docs.microsoft.com/en-us/azure/virtual-desktop/environment-setup)
 
-[Azure Academy - Building WVD Environment](https://aka.ms/AzureAcademy-WVD)
+[Azure Academy - Building AVD Environment](https://aka.ms/AzureAcademy-WVD)
 
 These concepts will help you understand the hierarchy you need to establish in order to deploy AVD
 
