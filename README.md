@@ -8,6 +8,10 @@ description: "Add 150 character max description"
 urlFragment: "update-this-to-unique-url-stub"
 ---
 
+# IMPORTANT
+
+With the disbandment of the FastTrack for Azure organization within Microsoft, this repository is being archived and will no longer be maintained.
+
 # Official Microsoft Sample
 
 <!-- 
